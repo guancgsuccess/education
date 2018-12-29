@@ -1,0 +1,125 @@
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<!--让浏览器使用最新的IE内核进行渲染页面-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="plugins/dist/css/bootstrap.css" />
+		<style>
+			.a {
+				height: 300px;
+				width: 600px;
+				border-radius: 20px;
+				border: 2px solid gray;
+				/*	text-align: center;	*/
+				left: 350px;
+				position: relative;
+				padding: 20px;
+				margin: 100px;
+			}
+			
+			.body {
+				/*background-color: cornflowerblue;*/
+				background: url(img/背景.png)/*repeat-x #f6f7fb!important*/
+				;
+			}
+			
+			.input {
+				width: 300px;
+			}
+		</style>
+	</head>
+
+	<body class="body">
+		<script type="text/javascript" src="plugins/jquery/jquery.min.js">
+		</script>
+		<script type="text/javascript" src="plugins/dist/js/bootstrap.min.js">
+		</script>
+
+		<!--表单开始-->
+		<div class="a">
+			<form class="form-horizontal" role="form">
+				<legend>
+					<a href="#">用户登录</a>
+				</legend>
+				<div class="form-group">
+					<label for="usename" class="col-sm-2 control-label">用户名：</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="firstname" placeholder="请输入用户名">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="password" class="col-sm-2 control-label">密码：</label>
+					<div class="col-sm-5">
+						<input type="password" class="form-control" id="lastname" placeholder="请输入密码">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-3">
+						<input type="button" class="form-control" id="lastname" value="注册" data-toggle="modal" data-target="#registerModal">
+					</div>
+					<div class="col-sm-3">
+						<a href="用户登录注册.html"><input type="submit" class="form-control btn btn-success" id="lastname" value="登录"></a>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<div class="checkbox">
+							<label>
+		          <input type="checkbox">记住密码
+		        </label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--表单结束-->
+		<!--注册模态框开始-->
+		<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title" id="registerModal2">注 册</h2>
+					</div>
+					<div class="modal-body">
+						<form>
+
+							<div class="form-group">
+								<label for="usename" class=" control-label">用户名：</label>
+								<input type="text" class="form-control input" id="firstname" placeholder="请输入用户名">
+								<div class="">
+
+									<div class="form-group">
+										<label for="password" class=" control-label">密码：</label>
+										<input type="password" class="form-control input" id="lastname" placeholder="请输入密码">
+									</div>
+
+									<div class="form-group">
+										<label for="tel">联系方式：</label>
+										<input type="text" class="form-control input" id="tel" placeholder="请输入联系方式">
+									</div>
+									<div class="form-group">
+										<label for="password1">密码：</label>
+										<input type="password" class="form-control input" id="password1" placeholder="请输入密码">
+									</div>
+									<div class="form-group">
+										<label for="repassword">确认密码：</label>
+										<input type="password" class="form-control input" id="repassword" placeholder="请再次输入密码">
+									</div>
+						</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">取 消</button>
+							<button type="button" class="btn btn-danger">注 册</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<!--注册模态框结束-->
+	</body>
+
+</html>

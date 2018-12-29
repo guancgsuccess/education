@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html xmlns="#">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="plugins/dist/css/bootstrap.css" />
+		<!--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+		<link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<style type="text/css">
+		li:hover ul {
+			display: block;
+		}
+		
+		.box {
+			width: 80%;
+			min-width: 1300px;
+			margin: auto;
+		}
+		
+		li {
+			text-align: center;
+			width: 150px;
+			height: 50px;
+		}
+		
+		.row>div {
+			margin-bottom: 15px;
+		}
+		
+		.row>div>a:hover {
+			width: 1000px;
+			height: 300px;
+		}
+		
+		.bigger-img img:hover {
+			width: 300px!important;
+		}
+		
+		.teacher img {
+			width: 100%;
+		}
+		.teacher div{
+			padding-left: 0!important;
+			padding-right: 0!important;
+		}
+		.header-menu::-webkit-scrollbar{
+			display: none;
+		}
+		@media only screen and (max-width: 800px) {
+			#myCarousel {
+				display: none;
+			}
+			.box {
+				width: 100%;
+				min-width: 0px;
+			}
+			#footer{
+				display: none;
+			}
+			.header-menu li{
+				display: inline-block;
+				width: 100px;
+				border-bottom: 2px solid #E6E6E6;
+			}
+			.header-menu{
+				text-align: justify;
+				overflow-x: scroll;
+				overflow-y: hidden;
+				white-space: nowrap;
+			}
+		}
+	</style>
+
+	<body>
+		<div id="head_menu">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3 col-xs-6 col-md-offset-2"><img src="img/远航教育.jpg" style="width: 100px;"/><span style="font-size:30px;display: block;">远航教育</span></div>
+					<div class="col-md-3 col-xs-6 col-md-offset-4"><span><img src="img/电话l.jpg" /><img src="img/二维码.jpg" style="width: 100px;margin-top: 30px;"/></span></div>
+					
+				</div>
+			</div>
+			<div class="navbar navbar-collapse navbar-default" style="width: 100%;text-align: center;">
+				<div class="box">
+					<ul class="nav navbar-nav header-menu">
+						<li style="">
+							<a href="index.html" target="_blank" rel="nofollow">首页</a>
+						</li>
+						<li class="dropdown">
+							<a href="interfar.html" target="_blank" rel="nofollow">走进远航</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="subject.html" target="_blank" rel="nofollow"> 课程体系</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="new.html" target="_blank" rel="nofollow">新闻动态</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="successful.html" target="_blank" rel="nofollow"> 成功案例</a>
+							
+						<li class="dropdown">
+							<a href="about.html" target="_blank" rel="nofollow"> 关于我们</a>
+							
+						</li>
+					</ul>
+				</div>
+				<a href="用户登录注册.html"><button type="button" class="btn btn-lg navbar-default" style="border: 0px;font-size: 16px;">登陆</button></a>
+				<a href="用户登录注册.html"><button type="reset" class="btn btn-lg navbar-default" style="border: 0px;font-size: 16px;">注册</button></a>
+			</div>
+			<div id="myCarousel" class="carousel slide" style="margin-top: -20px;">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<a href="#"><img src="img/教育3.jpg" alt="First slide" style="width: 100%;"></a>
+					</div>
+					<div class="item">
+						<a href="#"><img src="img/教育4.jpg" alt="Second slide" style="width: 100%;"></a>
+					</div>
+					<div class="item">
+						<a href="#"><img src="img/教育5.jpg" alt="Third slide" style="width: 100%;"></a>
+					</div>
+				</div>
+			</div>
+			<script>
+				$(function() {
+					$('#myCarousel').carousel({
+						interval: 2000
+					})
+				});
+			</script>
+			<div class="box">
+				<div class="container-fluid  bigger-img">
+					<div class="row">
+						<h1>学生风采</h1>
+						<hr>
+						<div class="col-md-3 col-xs-6 col-sm-6">
+							<a href="#"><img src="img/教1.jpg" alt="" /></a>
+						</div>
+						<div class="col-md-3 col-xs-6 col-sm-6">
+							<a href="#"><img src="img/教2.jpg" alt="" /></a>
+						</div>
+						<div class="col-md-3 col-xs-6 col-sm-6">
+							<a href="#"><img src="img/教3.jpg" alt="" /></a>
+						</div>
+						<div class="col-md-3 col-xs-6 col-sm-6">
+							<a href="#"><img src="img/教4.jpg" alt="" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<h1>推荐课程</h1>
+						<hr>
+						<div>
+							<div class="col-md-3 col-xs-6 col-sm-6">
+								<a href="#"><img src="img/课1.png" alt="" /></a>
+							</div>
+							<div class="col-md-3 col-xs-6 col-sm-6">
+								<a href="#"><img src="img/课2.png" alt="" /></a>
+							</div>
+							<div class="col-md-3 col-xs-6 col-sm-6">
+								<a href="#"><img src="img/课3.png" alt="" /></a>
+							</div>
+							<div class="col-md-3 col-xs-6 col-sm-6">
+								<a href="#"><img src="img/课4.png" alt="" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid teacher">
+					<div class="row">
+						<h1 style="direction: left;">名师专栏</h1>
+						<hr>
+						<div class="col-md-4 col-xs-12 col-sm-12">
+							<a href="#"><img src="img/名师.png" alt="" /></a>
+						</div>
+						<div class="col-md-4 col-xs-12 col-sm-12">
+							<a href="#"><img src="img/名师2.png" alt="" /></a>
+						</div>
+						<div class="col-md-4 col-xs-12 col-sm-12">
+							<a href="#"><img src="img/名师3.png" alt="" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid navbar navbar-default" id="footer" style="height: 300px;">
+				<div style="margin-top: 30px;" class="row">
+					<div class="col-md-2 col-xs-6 col-md-offset-2">
+						<ul style="font-size: 15px; list-style: none;">
+							<li style="font-size: 20px; color: black;">加入我们</li>
+							<li>
+								<a href="http://教育1.html">合作前景</a>
+							</li>
+							<li>
+								<a href="#">合作优势</a>
+							</li>
+							<li>
+								<a href="#">合作政策</a>
+							</li>
+							<li>
+								<a href="#">合作流程</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2 col-xs-6 col-md-offset-1">
+						<ul style="font-size: 15px; list-style: none;">
+							<li style="font-size: 20px; color: black;">合作项目</li>
+							<li>
+								<a href="#">快速记忆</a>
+							</li>
+							<li>
+								<a href="#">快速阅读</a>
+							</li>
+							<li>
+								<a href="#">思维导图</a>
+							</li>
+							<li>
+								<a href="#">快速作文</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2 col-xs-6 col-md-offset-1">
+						<ul style="font-size: 15px; list-style: none;color: black;">
+							<li style="font-size: 20px;">联系我们</li>
+							<li>中国远航教育有限公司</li>
+							<li style="font-size: 12px;">统一咨询专线：400-662-0006</li>
+							<li>地址：苏州市产业园</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

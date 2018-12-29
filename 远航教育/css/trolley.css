@@ -1,0 +1,18 @@
+.like {
+	top:-80px;
+	margin-bottom: 0px;
+}
+.like span{
+	color: #63a485;
+	margin-bottom: 5px;
+	display: block;
+	text-align: left;
+	position: relative;
+	left: -5px;
+}
+.course{
+	padding-bottom: 0px!important;
+}
+.form-content{
+	min-height: 500px;
+}

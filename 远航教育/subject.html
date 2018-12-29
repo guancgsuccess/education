@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="plugins/dist/css/bootstrap.css" />
+		<!--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" href="plugins/layui/css/layui.css">
+	</head>
+	<style type="text/css">
+		li:hover ul {
+			display: block;
+		}
+		
+		li {
+			text-align: center;
+			width: 150px;
+		}
+		.header-menu::-webkit-scrollbar{
+			display: none;
+		}
+		@media only screen and (max-width: 800px) {
+			#myCarousel {
+				display: none;
+			}
+			.box {
+				width: 100%;
+				min-width: 0px;
+			}
+			
+			#footer{
+				display: none;
+			}
+			.header-menu li{
+				display: inline-block;
+				width: 100px;
+				border-bottom: 2px solid #E6E6E6;
+			}
+			.header-menu{
+				text-align: justify;
+				overflow-x: scroll;
+				overflow-y: hidden;
+				white-space: nowrap;
+			}
+		}
+	</style>
+
+	<body>
+		<div id="head_menu">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3 col-xs-6 col-md-offset-2"><img src="img/远航教育.jpg" style="width: 100px;" /><span style="font-size:30px;display: block;">远航教育</span></div>
+					<div class="col-md-3 col-xs-6 col-md-offset-4"><span><img src="img/电话l.jpg" /><img src="img/二维码.jpg" style="width: 100px;margin-top: 30px;"/></span></div>
+
+				</div>
+			</div>
+			<div class="navbar navbar-collapse navbar-default" style="width: 100%;text-align: center;">
+				<div class="box">
+					<ul class="nav navbar-nav header-menu">
+						<li style="">
+							<a href="index.html" target="_blank" rel="nofollow">首页</a>
+						</li>
+						<li class="dropdown">
+							<a href="interfar.html" target="_blank" rel="nofollow">走进远航</a>
+
+						</li>
+						<li class="dropdown">
+							<a href="subject.html" target="_blank" rel="nofollow"> 课程体系</a>
+
+						</li>
+						<li class="dropdown">
+							<a href="new.html" target="_blank" rel="nofollow">新闻动态</a>
+
+						</li>
+						<li class="dropdown">
+							<a href="successful.html" target="_blank" rel="nofollow">成功案例</a>
+                        </li>
+                       
+							<li class="dropdown">
+								<a href="about.html" target="_blank" rel="nofollow">关于我们</a>
+
+							</li>
+					</ul>
+				</div>
+				<a href="用户登录注册.html"><button " class="btn btn-lg navbar-default " style="border: 0px;font-size: 16px; ">登陆</button></a>
+				<a href="用户登录注册.html"><button type="reset " class="btn btn-lg navbar-default " style="border: 0px;font-size: 16px; ">注册</button></a>
+			</div>
+			<div style="height: 600px; ">
+				<div id="myCarousel" class="carousel slide" style="margin-top: -20px;">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<a href="公开课.html"><img src="img/first.png" alt="First slide" style="width: 100%;"></a>
+					</div>
+					<div class="item">
+						<a href="#"><img src="img/second.png" alt="Second slide" style="width: 100%;"></a>
+					</div>
+					<div class="item">
+						<a href="公开课.html"><img src="img/third.png" alt="Third slide" style="width: 100%;"></a>
+					</div>
+				</div>
+			</div>
+					<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
+					<!--引入bootstrap.min.js-->
+					<script type="text/javascript" src="plugins/dist/js/bootstrap.min.js"></script>
+			<script>
+				$(function() {
+					$('#myCarousel').carousel({
+						interval: 2000
+					})
+				});
+			</script>
+			
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 col-sm-12">
+						<hr />
+						
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 col-sm-12">
+						<h3 style="text-align: center; color: #666666">课程体系</h3>
+					</div>
+				</div>
+			</div>
+			
+				<div class="box ">
+					<div class="container-fluid ">
+						<div class="row ">
+							<div class="col-md-5 col-sm-6 col-xs-12 ">
+								<a href="公开课.html "><img src="img/course_5.jpg" style="width: 100%;height:250px;"/></a>
+                                <a href="公开课.html " class="layui-btn layui-btn-lg layui-btn-normal ">优质公开课入口</a>
+							</div>
+							<div class="col-md-5 col-sm-6 col-xs-12  col-md-offset-2 ">
+								<a href="buysubject.html"><img src="img/course_3.jpg" style="width:100%;height:250px;"/></a>
+                                <a href="buysubject.html " class="layui-btn layui-btn-lg layui-btn-normal ">课程购买入口</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="box ">
+					<div class="container-fluid ">
+						<div class="row ">
+							<div class="col-md-5 col-sm-6 col-xs-12 ">
+								
+								<a href=" 口语培训.html"><img src="img/course_7.jpg" style="width: 100%;height: 250px;"/></a>
+                                <a href="口语培训.html" class="layui-btn layui-btn-lg layui-btn-normal ">口语培训入口</a>
+							</div>
+						    <div class="col-md-5 col-sm-6 col-xs-12  col-md-offset-2">
+					            <a href="学习论坛.html"><img src="img/course_8.jpg" style="width: 100%;height: 250px;"/></a>
+					            <a href="学习论坛.html" class="layui-btn layui-btn-lg layui-btn-normal">学习论坛入口</a>
+			                </div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="box ">
+					<div class="container-fluid ">
+						<div class="row ">
+							<div class="col-md-5 col-sm-6 col-xs-12 ">
+								<a href="推荐书单.html "><img src="img/course_5.jpg" style="width: 100%;height:250px;"/></a>
+                                <a href="推荐书单.html " class="layui-btn layui-btn-lg layui-btn-normal ">推荐书单入口</a>
+							</div>
+							<div class="col-md-5 col-sm-6 col-xs-12  col-md-offset-2 ">
+								<a href="推荐课程.html "><img src="img/course_3.jpg" style="width:100%;height:250px;"/></a>
+                                <a href="推荐课程.html " class="layui-btn layui-btn-lg layui-btn-normal ">推荐课程入口</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="box ">
+					<div class="container-fluid ">
+						<div class="row ">
+							<div class="col-md-5 col-sm-6 col-xs-12 ">
+								
+								<a href="合作前景.html"><img src="img/course_7.jpg" style="width: 100%;height: 250px;"/></a>
+                                <a href="合作前景.html" class="layui-btn layui-btn-lg layui-btn-normal ">合作前景入口</a>
+							</div>
+						    <div class="col-md-5 col-sm-6 col-xs-12  col-md-offset-2">
+					            <a href="学子反馈.html"><img src="img/course_8.jpg" style="width: 100%;height: 250px;"/></a>
+					            <a href="学子反馈.html" class="layui-btn layui-btn-lg layui-btn-normal">学子反馈入口</a>
+			                </div>
+		                </div>
+		            </div>
+		        </div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 col-sm-12">								
+				<hr />			
+				</div>
+			</div>
+		</div><div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 col-sm-12">	
+				<p style="text-align: center;color:#666666;font-size: 25px;">课程特色</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 col-xs-12 col-sm-12">
+					<a href="#"><img src="img/xdhome_part2item1.png" style="width: 100%;text-align: center;"/></a>
+					<a href="#" style="text-decoration: none;"><p style="color: #666666;">用过教学一对一都说好!远航一对一是您的最好选择！</p></a>
+				</div>
+				<div class="col-md-3 col-xs-12 col-sm-12 ">
+					<a href="#"><img src="img/xdhome_part2item3.png" style="width: 100%;text-align: center;"/></a>
+					<a href="#"><p style="color: #666666;">学习方案量身定制，让您的学习稳步提升！</p></a>
+				</div>
+				<div class="col-md-3 col-xs-12 col-sm-12">
+					<a href="#"><img src="img/xdhome_part2item2.png" style="width: 100%;text-align: center;"/></a>
+					<a href="#"><p style="color: #666666;">更多优质老师可以让您选择！</p></a>
+				</div>
+				<div class="col-md-3 col-xs-12 col-sm-12 ">
+					<a href="#"><img src="img/xdhome_part2item4.png" style="width: 100%;text-align: center;"/></a>
+					<a href="#"><p style="color: #666666;">在线直播教学，不出门，安全保障~</p></a>
+				</div>
+			</div>
+		</div>
+		</div>
+		 
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-xs-12 col-sm-12 col-md-offset-8">
+					<button class="btn btn-primary btn-lg layui-btn layui-btn-lg layui-btn-normal " data-toggle="modal" data-target="#myModal">
+                                                点我咨询客服
+					</button>
+					<!-- 模态框（Modal） -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" 
+											aria-hidden="true">×
+									</button>
+									<h4 class="modal-title" id="myModalLabel">
+										客服咨询专题
+									</h4>
+								</div>
+								<div class="modal-body">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-md-12 col-xs-12">
+												<img src="img/客服.jpg" style="border-radius: 50%;width: 50px;height:50px;"/>	
+												<p style="width: 100%;">客服001号：亲，您有什么问题？</p>				
+											</div>
+											<div class="col-md-12 col-xs-12">
+												<input type="text" style="width: 100%; height: 100px;" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" 
+											data-dismiss="modal">关闭
+									</button>
+									<button type="button" class="btn btn-primary">
+										提交问题
+									</button>
+								</div>
+							</div><!-- /.modal-content -->
+						</div><!-- /.modal-dialog -->
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<!--主体结束-->
+
+		<!--底部-->
+		<div class="footer">
+			<div class="box">
+				<div class="foot-lf">
+
+					<div class="name">
+						<p>远航教育</p>
+						<p id="url">www.yuanhang.com</p>
+					</div>
+				</div>
+				<div class="foot-center">
+					<div class="fl sogoke-intro">
+						<dl class="beian">
+							<dd>因梦扬帆</dd>
+							<dd>为梦远航</dd>
+						</dl>
+						<dl class="site_Info">
+							<dd>苏ICP备666888号-8</dd>
+							<dd>2018-2018 Yuanhang.com</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="foot-ri">
+					<ul id="foot-ul">
+						<li>
+							<a href="">关于远航</a>
+						</li>
+						<!--<li>
+									<a href=""></a>
+								</li>-->
+						<li>
+							<a href="">入驻加盟</a>
+						</li>
+						<li>
+							<a href="">联系我们</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--底部结束-->
+	</body>
+
+</html>
